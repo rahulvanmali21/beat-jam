@@ -1,0 +1,147 @@
+*{
+    font-family: "Helvatica Neue",Helvetica,Arial;
+    color: #f5f5f5;  
+}
+body{
+    font-size: 14px;
+    min-width: 720px;
+    background-color: #181818;
+}
+#topContainer{
+    min-height: 100%;
+    width: 100%;
+}
+#sideBarContainer{
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 240px;
+    height: 100vh;
+    background: #870000; 
+    background: -webkit-linear-gradient(to left, #181818, #870000); 
+    background: linear-gradient(to left, #181818, #870000);
+   
+}
+.navBar{
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+}
+.logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+.Elements{
+padding: 10px 0;
+border-top: 1px solid #00bf8f
+}
+.navItem{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    display: block;
+    margin-top: 10xp;
+}
+.navLink{
+    text-decoration: none;
+    color: beige;
+}
+.navLink:hover{
+    color:#00bf8f;
+    transition: all 0.7s ease;
+}
+
+.artistInfo{
+    text-align: center;
+}
+.button{
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 12px;
+    background-color: transparent;
+    font-weight: 500px;
+    letter-spacing: 2px;
+    border:2px solid #ffffff;
+    border-radius: 500px;
+    padding: 14px;
+    width: 180px;
+    text-transform: uppercase;
+}
+.redbg{
+    transition: color 0.7s ease-in-out;
+}
+.redbg:hover{
+   
+    background-color: #f21a1e;  /* fallback for old browsers */
+    border-color: #f21a1e;
+  
+}
+.borderBottom{
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 22px;
+}
+.songListContainer h2,
+.gridContainer h2,
+.artistContainer h2,
+.gridContainer h2{
+    text-align: center;
+    color: #00bf8f;    
+}
+[role="link"]{
+cursor: pointer;
+}
+.searchContainer{
+    padding: 20px 28px;
+}
+.searchContainer h4{
+    margin: 0;
+    font-weight: 600px;
+    letter-spacing: 1px;
+}
+.searchContainer input[type="text"]{
+    margin-top: 10px;
+    width: 200px;
+    -webkit-transition: width 0.9s ease-in-out;
+    transition: width 0.9s ease-in-out;
+    height: 50px;
+    font-size: 45px;
+    background: transparent;
+    border: 0;
+    padding: 10 20px;
+    border-bottom: 2px solid transparent;
+ 
+}
+.searchContainer input[type="text"]:focus{
+    border-bottom: 2px solid #ffffff;
+    width: 100%;
+
+}
+.searchRow .ArtName span{
+padding: 20px 0;
+font-size: 16px;
+display: block;
+padding-left: 10px;
+margin-bottom: 30px;
+}
+.searchRow .ArtName span:hover{
+    transform: scaleY(1.1);
+    background-color: #282828;
+    color:#f21a1e!important;
+}
+.notFound{
+    display: block;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.buttonEntity .button{
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 200px;
+}
+.playlistImage{
+    border:3px solid #ffffff;
+    padding: 10px;
+}

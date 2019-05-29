@@ -1,0 +1,78 @@
+.albumInfo{
+    padding:  40px 0 10px 0;
+    display: inline-block;
+    width: 100%;
+}
+.albumInfo .leftPart{
+ width: 30%;
+ float: left;
+ max-width: 250px;
+}
+.albumInfo .leftPart img{
+ width: 100%;
+ transition: transform .5s;
+}
+.albumInfo .leftPart img:hover{
+  transform: scale(1.1);
+   }
+.albumInfo .rightPart{
+float :right;
+width: 70%;
+padding: 5px 10px 5px 40px;
+box-sizing: border-box;
+border-left: 2px solid white;
+
+
+}
+.albumInfo h2{
+    margin-top: 0;
+}
+.albumInfo p, 
+.albumInfo span{
+    font-weight: 700;
+}
+.albumInfo p{
+    color: #f21a1e;
+}
+.optionsMenu{
+    display: none;
+    position: fixed;
+    background-color: #282828;
+    width: 210px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    z-index: 1000;
+}
+.optionsMenu .item{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-weight: 400;
+    height: 41px;
+    cursor: pointer;
+    background-color: #282828;
+    font-size: 13px;
+
+}
+.optionsMenu .item:hover{
+background-color: #f21a1e;
+}
+
+
+.optionsMenu select{
+    -webkit-appearance: none;
+    border: none;
+}
+.optionsMenu select:hover{
+    background-color: #282828 !important;
+}
+.optionsMenu select option{
+    -webkit-appearance: none;
+    border: none;
+    height: 41px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: 13px;
+    background-color: #282828;
+
+}

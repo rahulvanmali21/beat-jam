@@ -1,0 +1,145 @@
+#mainWrapper{
+    margin-left: 240px;
+    padding-bottom: 90px;
+    width: calc(100% - 240px); 
+}
+*{
+    letter-spacing: 1px;
+}
+#main{
+    padding: 0 30px;
+
+}
+.heading{
+    text-align: center;
+    padding: 20px;
+}
+.gridItem{
+    display: inline-block;
+    margin-right: 20px;
+    width: 29%;
+    max-width:200px ;
+    min-width:150px ;
+    margin-bottom: 22px;
+}
+.gridItem img{
+    width: 100%;
+    transition: all  0.5s; 
+    opacity: 0.8;
+}
+.gridItem img:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.gridInfo{
+    text-align: center;
+    padding: 6px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: bold;
+
+}
+
+.gridItem a{
+    text-decoration: none;
+}
+.songList{
+padding: 0;
+}
+.listItem{
+    height: 40px;
+    padding: 15px 10px;
+    list-style: none;
+    
+}
+.listItem span{
+    font-weight: 200;
+}
+.listItem .songtitle{
+margin-bottom: 7px;
+font-size: 16px;
+}
+
+.listItem .artistName{
+color: #f21a1e;
+margin-top: 0;
+font-size: 12px;
+}
+.listItem:hover{
+    background-color:#282828;
+}
+.listItem .songsCount{
+    width: 8%;
+    float: left;
+}
+.listItem .songsCount img{
+    cursor: pointer;
+    width:30px;
+    visibility: hidden;
+    position: absolute;
+}
+.listItem:hover .songsCount img{
+    visibility: visible;
+}
+.listItem .songsCount span{
+visibility:visible;
+}
+.listItem:hover .songsCount .songIndex{
+    visibility:hidden;
+}
+.listItem .songDetails{
+    width: 70%;
+    float: left;
+}
+.listItem .songDetails span{
+    display: block;
+}
+.listItem .songOptions{
+    width: 5%;
+    float: left;
+    text-align: right;
+}
+.listItem .songOptions img{
+    width: 18px;
+    visibility: hidden;
+}
+.listItem:hover .songOptions img{
+    visibility:visible;
+}
+.listItem .duration{
+    width: 12%;
+    float: left;
+    text-align: center;
+}
+.userDetails{
+    padding: 20px;
+}
+.userDetails .container h2{
+    text-align: center;
+}
+
+.userDetails .container input[type="text"],
+.userDetails .container input[type="password"],
+.userDetails .container .button{
+    display: block;
+    margin: 20px auto;
+
+}
+.userDetails .container input[type="text"],
+.userDetails .container input[type="password"]{
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #f21a1e;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 20px;
+}
+.msg{
+    color: #f21a1e;
+    font-weight: 400;
+    text-align: center;
+}

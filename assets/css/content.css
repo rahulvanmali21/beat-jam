@@ -1,0 +1,29 @@
+
+#headingtext{
+    padding: 45px;
+    display: table-cell;
+}
+#headingtext h1{
+    color:#f21a1e ;
+    font-size:45px;
+    font-weight: bold;
+}
+#headingtext h2{
+    margin: 35px 0;
+}
+#headingtext ul{
+    padding: 0;
+}
+#headingtext li{
+    font-size: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+#inputContainer .alertMessage{
+    color: #f21a1e;
+    font-size: 14px;
+    display: block;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
